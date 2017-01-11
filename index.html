@@ -8,16 +8,31 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,700" type="text/css" rel="stylesheet"/>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 ></script>
+<script
+  src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="scripts/app.js"></script>
 </head>
-<body>
+<body class="js-menu-close">
+<div id="sidebar-wrapper" class="js-menu-open">
+<h2>Spike</h2>
+<h2>Spiegel</h2>
+  <div class="sidebar-links">
+    <div id="close-btn" class="js-menu-close"><img src="img/icons/x.svg"></div>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a></div>
+</div>
 
-  <div id="intro" class="hero landscape">
-  <div class="container-fluid">
+  <div id="intro" class="container-fluid hero landscape">
+    <div id="hamburger" class="js-menu-open"><img src="img/icons/menu.svg"></div>
     <h1>Spike Spiegel</h1>
     <h5>Freelance Photographer</h5>
     <a href="#gallery"><button type="button" class="cta">See More</button></a>
   </div>
   </div>
+
   <div id="about" class="hero">
   <div class="container">
     <h2>About Me</h2>
